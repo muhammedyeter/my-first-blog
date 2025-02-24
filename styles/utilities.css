@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Josefin Sans", serif;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #191a1cff;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.centered-xy {
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-y {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    padding: 20vh 0;
+}
+
+.m-ny-sm {
+    margin: -5px 0;
+}
+
+.m-ny-md {
+    margin: -15px 0;
+}
+
+.p-y-sm {
+    padding: 5px 0;
+}
+
+.p-y-md {
+    padding: 10px 0;
+}
+
+.p-y-lg {
+    padding: 20px 0;
+}
+
+.p-lg {
+    padding: 40px;
+}
+
+.p-md {
+    padding: 20px;
+}
+
+.pr-sm {
+    padding: 0 5px 0 0;
+}
+
+.pb-md {
+    padding-bottom: 30px;
+}
+
+/* gap control */
+.gap-xs {
+    gap: 5px;
+}
+
+.gap-sm {
+    gap: 10px;
+}
+
+.gap-md {
+    gap: 15px;
+}
+
+.gap-lg {
+    gap: 30px;
+}
+
+.gap-xl {
+    gap: 60px;
+}
+
+.gap-xxl {
+    gap: 100px;
+}
+
+/*adjust round*/
+.round-sm {
+    border-radius: 5px;
+}
+
+.round-md {
+    border-radius: 10px;
+}
+
+.round-lg {
+    border-radius: 15px;
+}
+
+/* color palette */
+.body-element {
+    background-color: #14181d;
+}
+
+.primary-element {
+    background-color: #222831;
+}
+
+.secondary-element {
+    background-color: #393e46;
+}
+
+.interaction-element {
+    background-color: #0092ca;
+}
+
+.text-element {
+    color: #eeeeee;
+}
+
+.second-text-element {
+    color: #808080;
+}
+
+.web-content-container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+}
+
+/* ANIMATIONS */
+.hover-shadow-resize {
+    transition: box-shadow 0.5s ease-in-out;
+    transition: transform .5s;
+}
+
+.hover-shadow-resize:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    transform: scale(1.15);
+}
+
+.hover-border {
+    border-bottom: 1px solid #f2f2f500;
+    transition: border-bottom .5s;
+}
+
+.hover-border:hover {
+    border-bottom: 1px solid #f2f2f5ff;
+}

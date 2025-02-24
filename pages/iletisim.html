@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+        integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/layout.css">
+    <link rel="stylesheet" href="../styles/utilities.css">
+    <link rel="stylesheet" href="../styles/styles-iletisim.css">
+</head>
+
+<body class="body-element">
+    <div class="web-content-container">
+        <header>
+            <nav class="navbar-shadow-round navbar primary-element">
+                <a id="brand" href="../pages/index.html">paLm</a>
+                <ul>
+                    <li><a class="text-element" href="../pages/index.html">ANASAYFA</a></li>
+                    <li><a class="text-element" href="../pages/hakkimda.html">HAKKIMDA</a></li>
+                    <li><a class="text-element" href="../pages/galeri.html">GALERI</a></li>
+                    <li><a class="text-element" href="../pages/iletisim.html">İLETİŞİM</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content flex column gap-xxl centered-xy">
+            <h1 class="text-element">İletişim Formu</h1>
+            <section class="content-body flex gap-md">
+                <div class="contact-form flex column gap-xl">
+                    <div class="flex column gap-sm">
+                        <h4 class="text-element">İsim Soyisim</h4>
+                        <input type="text" class="secondary-element text-element contact-input-field"
+                            placeholder="Ad Soyad giriniz">
+                    </div>
+                    <div class="flex column gap-sm">
+                        <h4 class="text-element">E-Posta</h4>
+                        <input type="text" class="secondary-element text-element contact-input-field"
+                            placeholder="Geri dönüş için lütfen E-Posta'nızı ekleyin">
+                    </div>
+                    <div class="flex column gap-sm">
+                        <h4 class="text-element">İletiniz</h4>
+                        <textarea class="text-element contact-input-field message" placeholder="Mesajınız"></textarea>
+                    </div>
+                    <div class="button-placer flex">
+                        <a class="btn round-md hover-shadow-resize interaction-element" href="#">Gönder</a>
+                    </div>
+                </div>
+                <div class="about flex column gap-lg">
+                    <div class="flex gap-lg centered-y">
+                        <div class="pp-holder flex column gap-md">
+                            <img src="../images/profile-photo.webp" alt="profile-photo">
+                        </div>
+                        <span class="text-element">Muhammed Yeter</span>
+                    </div>
+                    <p class="m-ny-md second-text-element">Programmer, Guitarist, Photographer</p>
+                    <div class="flex gap-md">
+                        <a href="https://www.instagram.com/_muhammedyeter1/"
+                            class="hover-shadow-resize interaction-element flex centered-xy"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/muhammedyeter"
+                            class="hover-shadow-resize interaction-element flex centered-xy"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://open.spotify.com/user/mkxlxqqelj084hx1s9pqoq7zo?si=f4a3e0c2334d4707"
+                            class="hover-shadow-resize interaction-element flex centered-xy"><i
+                                class="fa-brands fa-spotify"></i></a>
+                    </div>
+                    <div class="p-y-lg">
+                        <i class="fa-regular fa-envelope text-element pr-sm"></i>
+                        <a href="mailto:muhammedyeter4736@gmail.com"
+                            class="second-text-element link-underline">muhammedyeter4736@gmail.com</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="layout-footer round-footer text-element primary-element">
+            <div class="social flex column gap-xs">
+                <h3 class="p-y-md text-element">Sosyal Medya</h3>
+                <div class="flex gap-sm">
+                    <a href="https://www.instagram.com/_muhammedyeter1/" class="hover-shadow-resize flex centered-xy"><i
+                            class="fa-brands fa-instagram text-element"></i></a>
+                    <a href="https://github.com/muhammedyeter" class="hover-shadow-resize flex centered-xy"><i
+                            class="fa-brands fa-github text-element"></i></a>
+                    <a href="https://open.spotify.com/user/mkxlxqqelj084hx1s9pqoq7zo?si=f4a3e0c2334d4707"
+                        class="hover-shadow-resize text-element flex centered-xy"><i
+                            class="fa-brands fa-spotify"></i></a>
+                </div>
+            </div>
+            <div class="flex gap-xl">
+                <a href="hakkimda.html" class="hover-border flex centered-xy">
+                    <pre class="text-element">Hakkımda  </pre><i
+                        class="i-size-control text-element fa-solid fa-user"></i>
+                </a>
+                <a href="galeri.html" class="hover-border flex centered-xy">
+                    <pre class="text-element">Galeri  </pre><i
+                        class="i-size-control text-element fa-solid fa-image"></i>
+                </a>
+                <a href="iletisim.html" class="hover-border flex centered-xy">
+                    <pre class="text-element">İletişim  </pre><i
+                        class="i-size-control text-element fa-solid fa-phone"></i>
+                </a>
+            </div>
+
+            <!-- logo section -->
+            <section>
+                <h1 id="footer-brand">paLm</h1>
+                <label class="second-text-element">Copyright© 2025 paLm - All Rights Reserved.</label>
+            </section>
+        </footer>
+    </div>
+</body>

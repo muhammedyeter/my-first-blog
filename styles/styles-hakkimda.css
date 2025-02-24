@@ -1,0 +1,95 @@
+p {
+    font-size: 17px;
+}
+
+span {
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.p-y-xl {
+    padding: 10px 0 40px 0;
+}
+
+.content-container {
+    background-color: black;
+}
+
+.section p {
+    max-width: fit-content;
+}
+
+.content-body {
+    width: 80%;
+    justify-content: space-between;
+}
+
+.bio-subhead {
+    color: #cecece;
+}
+
+.subject-container {
+    border-bottom: 1px solid #4d5563;
+}
+
+.subject {
+    justify-content: space-between;
+}
+
+.image-holder {
+    padding: 20px;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.image-holder img {
+    width: 100%;
+    height: auto;
+}
+
+.bio-link {
+    color: #617daf;
+    text-decoration: underline;
+}
+
+strong,
+i {
+    color: #cfcfcf;
+}
+
+.hobi-list li {
+    color: #8cabe0;
+    margin: 10px 0;
+}
+
+.hobi-list span {
+    font-size: 19px;
+}
+
+.pp-holder {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+section a {
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.link-underline {
+    text-decoration: #454545 underline;
+    background-color: inherit;
+}
+
+#footer-brand {
+    font-weight: 600;
+    color: #0d1013;
+    font-size: 48px;
+}

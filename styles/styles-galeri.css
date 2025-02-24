@@ -1,0 +1,41 @@
+.card {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+}
+
+.content {
+    padding: 15% 10%;
+    font-size: 25px;
+}
+
+.thumbtack{
+    color: #0092ca;
+}
+
+.image-holder {
+    width: 50%;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.thumbtack {
+    font-size: 36px;
+}
+
+.image-holder img {
+    width: 100%;
+    height: auto;
+}
+
+/* ANIMATION SPECIFIED */
+.hover-shadow-resize {
+    transition: box-shadow 0.5s ease-in-out;
+    transition: transform .5s;
+}
+
+.hover-shadow-resize:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
+}
